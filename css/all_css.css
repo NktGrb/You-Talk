@@ -1,0 +1,57 @@
+body {
+    position: relative;
+  }
+  html {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+  }
+  a {
+    text-decoration: none;
+  }
+  li {
+    list-style-type: none;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  a:visited {
+    color: #333333;
+  }
+  img {
+    max-width: 100%;
+  }
+  p {
+    margin: 24px 0 24px 0;
+  }
+  h3 {
+    font-weight: 700;
+    font-size: 1.71rem;
+    line-height: 2.28rem;
+  }
+  nav a {
+    white-space: nowrap;
+  }
+  .tab-history a {
+    resize: none;
+    white-space: nowrap;
+  }
+  .tab-history a:nth-child(3) {
+    resize: none;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  a{
+    color: #333333;
+    text-decoration: none;
+  }
+  
+  .wrapper-mini {
+    box-sizing: border-box;
+    border: 1px solid rgba(222, 222, 222, 1);
+    overflow: hidden;
+    border-radius: 16px;
+  }

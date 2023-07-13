@@ -1,0 +1,1042 @@
+header {
+    border-bottom: 1px solid rgba(239, 245, 251, 1);
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  nav {
+    display: flex;
+  }
+  .header-section-row {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header-section-row__right {
+    display: flex;
+  }
+  .header-section-row__right li {
+    display: flex;
+    align-items: center;
+  }
+  .header-section-row__right a {
+    color: rgba(51, 51, 51, 1);
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.14rem;
+  }
+  .header-section-row__right ul {
+    margin: 0 0 0 50px;
+    gap: 30px;
+    display: flex;
+  }
+  .logo_YouTalk {
+    margin: 0 20px 0 0;
+  }
+  
+  .header-search-psychologist {
+    padding: 14px 20px;
+    font-weight: 700;
+    font-size: 1.14rem;
+    line-height: 1.42rem;
+    color: rgba(3, 178, 165, 1);
+    background: rgba(227, 245, 245, 1);
+    border: 0;
+    border-radius: 4px;
+  }
+  .burger-menu {
+    display: none;
+  }
+  /*  + 
+      + 
+      +
+      + 
+      + 
+      + 
+   -------------  M A I N  -------------  
+      + 
+      + 
+      + 
+      +
+      + 
+      + 
+      +  */
+  
+  .nav-tag ul {
+    margin: 0 0 23px 0;
+  
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .nav-tag li {
+    margin: 0 8px 8px 0;
+  
+    display: flex;
+    align-items: center;
+    border: 1px solid #c1c5cd;
+    border-radius: 24px;
+    padding: 6px 8px;
+  }
+  .nav-tag a {
+    white-space: nowrap;
+    color: #333333;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.17rem;
+  }
+  .tab-history a {
+    font-size: 0.85rem;
+    line-height: 1.28rem;
+    color: rgba(51, 51, 51, 0.7);
+  }
+  .tab-history {
+    display: flex;
+    text-align: center;
+    margin: 16px 0 0 0;
+  }
+  .title h1 {
+    margin: 30px 0;
+    font-size: 3.42rem;
+    line-height: 4rem;
+    color: rgba(51, 51, 51, 1);
+    font-weight: 700;
+  }
+  .title img {
+    margin: 24px 0;
+  }
+  /*  + 
+      + 
+      +
+      + 
+      + 
+      + 
+   -------------  wrapper----start  -------------  
+      + 
+      + 
+      + 
+      +
+      + 
+      + 
+      +  */
+  .section-row_content {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+  }
+  .section-Up {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 24px;
+    grid-row-gap: 0px;
+  }
+  .wrapper {
+    border: 1px solid rgba(222, 222, 222, 1);
+    padding: 0 0 10px 0;
+    overflow: hidden;
+    border-radius: 16px;
+  }
+  
+  .wrapper__img {
+    box-sizing: border-box;
+    padding: 8px;
+    min-height: 260px;
+  }
+  
+  .wrapper__img_egg {
+    background: url(../img/egg.png) 0 0 /100% 100% no-repeat;
+  }
+  .wrapper__img_run {
+    background: url(../img/run.png) 0 0 /100% 100% no-repeat;
+  }
+  .check-tag-box {
+    display: table;
+    border-radius: 24px;
+    margin: 0 0 8px 0;
+    padding: 6px 8px;
+    background: rgba(255, 255, 255, 0.7);
+    border: 1px solid rgba(193, 197, 205, 1);
+  }
+  .check-tag-box span {
+    font-weight: 600;
+    color: #333333;
+    font-size: 1rem;
+    line-height: 1.42rem;
+  }
+  
+  #activ-tag {
+    border: 2px solid rgba(22, 200, 187, 1);
+  }
+  .unicorn-svg {
+    margin: 0 0 -3px 0;
+  }
+  .wrapper__text {
+    display: flex;
+    flex-direction: column;
+    margin: 16px;
+  }
+  .wrapper__text h4 {
+    font-size: 1.28rem;
+    line-height: 1.85rem;
+    font-weight: 700;
+    color: #333333;
+  }
+  .wrapper__text span {
+    display: block;
+    margin: 4px 0 8px 0;
+    color: #494949;
+    font-size: 0.85rem;
+    line-height: 1.28rem;
+  }
+  .wrapper__text p {
+    font-size: 1rem;
+    line-height: 1.42rem;
+    color: #333333;
+  }
+  .wrapper > span {
+    margin: 16px;
+    color: #868686;
+    font-size: 0.85rem;
+    line-height: 1.28rem;
+  }
+  
+  .wrapper-mini > span {
+    margin: 16px;
+    color: #868686;
+    font-size: 0.85rem;
+    line-height: 1.28rem;
+  }
+  .section-Down {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+  }
+  
+  .wrapper__img_girl_sleep {
+    background: url(../img/girl_sleep.png) 0 0 /100% 100% no-repeat;
+  }
+  .wrapper__img_girl_sea {
+    background: url(../img/girl_sea.png) 0 0 /100% 100% no-repeat;
+  }
+  .wrapper__img_evil_stick {
+    background: url(../img/evil_stick.png) 0 0 /100% 100% no-repeat;
+  }
+  .wrapper__img_woman-laptop {
+    background: url(../img/woman-laptop.png) 0 0 /100% 100% no-repeat;
+  }
+  .wrapper__img_woman-laptop-two {
+    background: url(../img/woman-laptop-2.png) 0 0 /100% 100% no-repeat;
+  }
+  .wrapper__img_people {
+    background: url(../img/people.png) 0 0 /100% 100% no-repeat;
+  }
+  .section-row_button button {
+    background: rgba(53, 179, 169, 1);
+    border-radius: 4px;
+    padding: 12px 16px;
+    border: 0;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+    font-size: 1.14rem;
+    line-height: 1.71rem;
+    width: 182px;
+    height: 48px;
+  }
+  .section-row_button {
+    display: flex;
+    margin: 56px auto 96px auto;
+    justify-content: center;
+  }
+  
+  /*  + 
+      + 
+      +
+      + 
+      + 
+      + 
+   -------------  footer  -------------  
+      + 
+      + 
+      + 
+      +
+      + 
+      + 
+      +  */
+  
+  .footer {
+    background: rgba(41, 99, 163, 1);
+    padding: 40px 0 17px 0;
+  }
+  .delete-desktop {
+    display: none;
+  }
+  .footer-row-up {
+    margin: 0 0 24px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-list {
+    min-height: 184px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  
+  .footer-row-up a {
+    font-weight: 700;
+    font-size: 1.14rem;
+    line-height: 1.71rem;
+    color: #fff;
+  }
+  .footer_search_wrapper {
+    max-width: 486px;
+  }
+  .footer_search_input {
+    margin: 0 0 8px 0;
+    display: flex;
+    align-items: center;
+    max-width: 384px;
+  }
+  .footer_search_wrapper h4 {
+    max-width: 356px;
+    margin: 0 0 8px 0;
+    font-weight: 700;
+    font-size: 1.28rem;
+    line-height: 1.85rem;
+    color: #fff;
+  }
+  .footer_search_input input {
+    font-size: 1rem;
+    padding: 0 0 0 16px;
+    line-height: 1.42rem;
+    width: 384px;
+    height: 48px;
+    border-radius: 4px;
+    border: 0;
+  }
+  
+  .footer_search_input > input::placeholder {
+    border: 0;
+    font-size: 1rem;
+    line-height: 1.42rem;
+    color: #9d9d9d;
+  }
+  
+  .footer_search_input input:focus {
+    outline: none;
+  }
+  .footer_search_input button {
+    outline: none;
+    background: rgba(22, 200, 187, 1);
+    width: 64px;
+    height: 48px;
+    border: 0;
+    border-radius: 4px;
+    padding: 14px 20px;
+    margin: 0 0px 0 -10px;
+  }
+  .footer_search_wrapper p {
+    font-size: 0.85rem;
+    color: rgba(255, 255, 255, 0.25);
+    line-height: 1.28rem;
+  }
+  .mini_logo_social_network {
+    padding: 40px 0 0 0;
+    display: flex;
+  }
+  .mini_logo_social_network div {
+    margin: 0 16px 0 0;
+  }
+  
+  .all_logo_social_network {
+    margin: 0 61px 0 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .footer-row-down {
+    border-top: 1px solid rgba(157, 157, 157, 0.3);
+    padding: 16px 0 0 0;
+  }
+  .footer-row-down ul {
+    display: flex;
+  }
+  .footer-row-down li {
+    padding: 0 48px 0 0;
+  }
+  
+  .footer-row-down a {
+    font-size: 1rem;
+    line-height: 1.42rem;
+    opacity: 0.7;
+    color: #fff;
+  }
+  
+  /* -------------------------- 1 0 2 4 iPad Pro 12.9"-1 ------------------- */
+  @media (max-width: 1024px) {
+    .container {
+      padding: 0 24px;
+    }
+    .header-search-psychologist,
+    footer {
+      display: none;
+    }
+  
+    .header-section-row__right ul {
+      margin: 0 0 0 30px;
+    }
+    .header-section-row__right ul {
+      gap: 16px;
+    }
+  }
+  /* -------------------------- 8 9 0  ------------------- */
+  
+  @media (max-width: 890px) {
+    .section-Down {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      grid-column-gap: 24px;
+      grid-row-gap: 24px;
+    }
+  }
+  
+  /* -------------------------- 7 6 8  iPad mini-2 ------------------- */
+  @media (max-width: 768px) {
+    .container {
+      padding: 0 20px;
+    }
+    .burger-menu {
+      display: block;
+      margin: 0 11px 0 0;
+    }
+    .header-search-psychologist,
+    footer,
+    .section-row_button,
+    .header-section-row__right > nav {
+      display: none;
+    }
+  
+    .section-Up {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(2, 1fr);
+  
+      grid-row-gap: 24px;
+    }
+    .wrapper__img_egg,
+    .wrapper__img_run {
+      min-height: 404px;
+    }
+  }
+  /* -------------------------- 5 6 0    ------------------- */
+  
+  @media (max-width: 560px) {
+    .section-Down {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(6, 1fr);
+  
+      grid-row-gap: 16px;
+    }
+  }
+  
+  /* -------------------------- 4 1 4  iPhone 11 Pro Max-2  ------------------- */
+  
+  @media (max-width: 414px) {
+    .section-Down,
+    .section-Up {
+      grid-column-gap: 16px;
+      grid-row-gap: 16px;
+    }
+  
+    .wrapper__img_egg,
+    .wrapper__img_run {
+      min-height: 206px;
+    }
+    .title h1 {
+      font-size: 2.28rem;
+      line-height: 2.85rem;
+    }
+    .nav-tag ul {
+      overflow: auto;
+      margin: 0 -20px;
+      flex-wrap: nowrap;
+    }
+    .nav-tag ul::-webkit-scrollbar {
+      width: 0;
+    }
+    .nav-tag li {
+      margin: 0 8px 0 0;
+    }
+  }
+  
+  /* -------------------------- 3 2 0  iPhone SE-1  ------------------- */
+  
+  @media (max-width: 320px) {
+    .container {
+      padding: 0 16px;
+    }
+  
+    .title h1 {
+      font-size: 1.71rem;
+      line-height: 2.28rem;
+    }
+    .nav-tag ul {
+      margin: 0 -16px;
+    }
+  }
+  /*            +
+                +
+                +
+                +
+                +
+                +
+                +
+                +
+                +
+                +
+                +
+                +
+                +
+                +
+  - - - - -A R T I C L E - - - - -
+                +
+                +
+                +
+                +
+                +
+                +
+                +
+                +
+                +
+                +
+                +
+                +
+                +
+                +
+                + */
+  
+  .wrapper-content {
+    gap: 24px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .wrapper-content-left {
+    max-width: 690px;
+    color: #333333;
+  }
+  li {
+    padding: 0px;
+  }
+  .content-article > div > ul > li li {
+    padding-left: 16px;
+  }
+  h5 {
+    font-weight: 700;
+    font-size: 1.14rem;
+    line-height: 1.71rem;
+  }
+  .content-article li {
+    list-style-type: none;
+    text-decoration: underline;
+    font-size: 1.14rem;
+    line-height: 1.71rem;
+    font-weight: 500;
+  }
+  
+  p {
+    font-size: 1.14rem;
+  
+    line-height: 1.71rem;
+    font-weight: 500;
+  }
+  
+  .section-one__up {
+    margin: 0 0 40px 0;
+  }
+  .section-one__down {
+    border-radius: 16px;
+    position: relative;
+    padding: 24px;
+    margin: 0 0 24px 0;
+    background: #f3f7fe;
+  }
+  .section-photo img {
+    margin: 0 0 24px 0;
+  }
+  .section-one__down p {
+    font-style: italic;
+    margin: 0 0 8px 0;
+  }
+  .section-one__down span {
+    font-weight: 700;
+    font-size: 1.14rem;
+  
+    line-height: 1.71rem;
+  }
+  
+  .section-one__down_svg {
+    position: absolute;
+    top: 20px;
+  }
+  .content-article > div > ul {
+    margin: 16px 0 24px 0;
+  }
+  .section-one h6 {
+    margin: 0 0 16px 0;
+  }
+  /* -------------------------section-one------------------------- */
+  
+  .section-anxiety ul {
+    margin: 0 0 24px 24px;
+  }
+  .section-anxiety li {
+    margin: 0 10px 0px 0;
+    list-style-type: disc;
+    font-weight: 500;
+    font-size: 1.14rem;
+    line-height: 1.71rem;
+    margin: 16px 0 0 0;
+  }
+  .section-anxiety li::marker {
+    margin: 0 10px 0px 0;
+    font-size: 25px;
+    color: #03b2a5;
+  }
+  
+  .svg_text svg {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+  }
+  .svg_text {
+    position: relative;
+    padding: 0px 103px 24px 103px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    max-height: 168px;
+  }
+  .svg_text p {
+    text-align: center;
+    font-style: italic;
+  }
+  
+  .img_woman_and_arm {
+    display: flex;
+    gap: 24px;
+  }
+  .img_woman_and_arm p {
+    margin: 0;
+  }
+  .exercise {
+    padding: 24px;
+    border-radius: 16px;
+    margin: 0 0 24px 0;
+  }
+  .exercise > p {
+    margin: 8px 0 0 0;
+  }
+  .exercise-one {
+    background: #fefaec;
+  }
+  .exercise-two {
+    background: #fff3eb;
+  }
+  .section-chair-and-night_woman {
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+  }
+  .section-chair-and-night_woman img {
+    margin: 0;
+    width: 100%;
+  }
+  
+  .svg_zig-zag {
+    text-align: center;
+  }
+  .exercise-three {
+    background: rgba(3, 178, 165, 0.1);
+  }
+  .check-tag-end ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+  }
+  .check-tag-end li {
+    margin: 0;
+    line-height: 0;
+    list-style-type: none;
+  }
+  .check-tag-end a {
+    color: #2963a3;
+    font-size: 1rem;
+    line-height: 1.42rem;
+    margin: 0px 15px 0 8px;
+  }
+  .check-tag-end li::marker {
+    content: "•";
+    color: #494949;
+    font-size: 14px;
+    margin: 0 20px 0 0;
+  }
+  /* +
+  +
+  +
+  +
+  +
+  +
+  +
+  +
+  +A S I D E + + + + + + 
+  +
+  +
+  +
+  +
+  + */
+  
+  .wrapper-content-right {
+    display: flex;
+  
+    gap: 20px;
+    flex-direction: column;
+    max-width: 288px;
+    margin: 88px 0 0 0;
+  }
+  .card-one {
+    padding: 24px;
+    background: #e6f0fd;
+    border-radius: 16px;
+  }
+  .card-one h5 {
+    text-align: center;
+    font-size: 1.28rem;
+    line-height: 1.71rem;
+    margin: 0 0 8px 0;
+  }
+  .card-one p {
+    font-size: 1rem;
+    line-height: 1.42rem;
+    margin: 0;
+    text-align: center;
+  }
+  .card-one div {
+    margin: 24px 0;
+  }
+  .card-button {
+    display: block;
+    background: rgba(53, 179, 169, 1);
+    border-radius: 4px;
+    padding: 12px 16px;
+    border: 0;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+    font-size: 1.14rem;
+    line-height: 1.71rem;
+    width: 100%;
+    height: 48px;
+  }
+  
+  /* ---------------card-2---------------- */
+  .card-two {
+    position: relative;
+    padding: 16px 16px 36px 16px;
+    border-radius: 16px;
+    border: 1px solid #dedede;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .tag-check {
+    left: 16px;
+    position: absolute;
+  }
+  .tag-check div {
+    line-height: 1.28rem;
+    color: #333333;
+    font-weight: 500;
+    font-size: 0.85rem;
+    display: table;
+    margin: 0 0 8px 0;
+    border-radius: 4px;
+    padding: 0 6px;
+    background: rgba(243, 244, 248, 0.7);
+  }
+  .card-two img {
+    margin: 8px 0 0 0;
+    border-radius: 50%;
+  }
+  
+  .card-two h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.41rem;
+    line-height: 2rem;
+    margin: 0;
+  }
+  
+  .card-two span:nth-child(2) {
+    text-align: center;
+    display: block;
+    font-weight: 600;
+    font-size: 1.14rem;
+    line-height: 1.71rem;
+    margin: 0 0 4px 0;
+  }
+  .card-two span:nth-child(3) {
+    display: block;
+    font-weight: 500;
+    color: #a2a7b1;
+    line-height: 1.42rem;
+    font-size: 1rem;
+    margin: 0 0 16px 0;
+  }
+  .card-two li {
+    margin: 8px 0 0 20px;
+    list-style-type: disc;
+    font-size: 1rem;
+    line-height: 1.42rem;
+  }
+  .card-two li::marker {
+    color: #03b2a5;
+    font-size: 1.5rem;
+  }
+  .card-button {
+    margin: 20px 0 0 0;
+  }
+  .card-two_end {
+    border-top: 1px solid #dedede;
+    padding: 16px 0 0 0;
+  }
+  
+  /* ----------------------card three------------------------------ */
+  .card-three {
+    overflow: hidden;
+  
+    min-height: 292px;
+    position: relative;
+    background: #2963a3;
+    border-radius: 16px;
+  }
+  .card-three > .present_1 {
+    margin: 0;
+    position: absolute;
+    bottom: 0px;
+    z-index: 2;
+    left: 0px;
+  }
+  .card-three > .present_2 {
+    z-index: 1;
+    position: absolute;
+    margin: 0 0 0 -53px;
+    bottom: 0px;
+    left: 50%;
+  }
+  .card-three > .present_3 {
+    position: absolute;
+    margin: 0;
+    z-index: 2;
+    bottom: 0px;
+    right: 0px;
+  }
+  .card-three > .happy {
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    top: 0px;
+  }
+  .card-three h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 2.28rem;
+    line-height: 2.85rem;
+    color: #fff;
+    margin: 60px 0 0 0;
+  }
+  
+  /* ----------------------card four------------------------------ */
+  
+  .card-four {
+    overflow: hidden;
+    background: #ffffff;
+    position: relative;
+    border: 1px solid #dedede;
+    border-radius: 24px;
+  }
+  .card-four div {
+    margin: 32px;
+  }
+  .card-four h4 {
+    font-weight: 700;
+    color: #2963a3;
+    font-size: 1.28rem;
+    line-height: 1.85rem;
+  }
+  .card-four p {
+    color: #011632;
+    font-family: "Open Sans";
+    font-size: 1rem;
+    line-height: 1.42rem;
+  }
+  .card-four h6 {
+    font-weight: 700;
+    font-size: 1.71rem;
+    line-height: 2.28rem;
+  }
+  .present_4 {
+    margin: 0;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+  }
+  .present_5 {
+    margin: 0;
+    z-index: 1;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+  }
+  
+  .card-four-button {
+    max-width: 108px;
+  }
+  
+  .section-end {
+    display: flex;
+    padding: 80px 0 26px 0;
+    border-top: 1px solid #dedede;
+    justify-content: space-between;
+  }
+  .svg-end {
+    position: relative;
+    top: 0px;
+    left: 50%;
+    margin: 0 0 0 -720px;
+  }
+  
+  .section-end h1 {
+    font-weight: 700;
+    font-size: 3.42rem;
+    line-height: 4rem;
+  }
+  .section-end div:nth-child(1) {
+    max-width: 348px;
+  }
+  .section-end p {
+    font-size: 1.28rem;
+    line-height: 1.85rem;
+  }
+  .vector-svg-div {
+    position: relative;
+  }
+  
+  .vector-svg {
+    position: absolute;
+    right: 0;
+    bottom: 30px;
+  }
+  .svg-vector-two {
+    position: absolute;
+    right: 0;
+    bottom: 50%;
+  }
+  /* --------------------iPad Pro 12.9"-3----------------- */
+  @media (max-width: 1024px) {
+    .container {
+      padding: 0 32px;
+    }
+  
+    .content-article li {
+      margin: 0 0px 0px 24px;
+      list-style-type: disc;
+    }
+    .content-article li::marker {
+      font-size: 25px;
+      color: #03b2a5;
+    }
+  
+    .wrapper-content-left {
+      max-width: 714px;
+    }
+    .wrapper-content-right {
+      min-width: 222px;
+    }
+    .section-end,
+    .svg-end,
+    .check-tag-end,
+    .delet-iPad,
+    .svg-vector-two,
+    .vector-svg-div {
+      display: none;
+    }
+    .card-four div {
+      margin: 24px;
+    }
+  
+    .delete-desktop {
+      display: inline;
+      color: #2963a3;
+    }
+    .delete-desktop::before {
+      content: "•";
+      color: #494949;
+    }
+  }
+  /* -------------------- iPad mini-4 ----------------- */
+  @media (max-width: 768px) {
+    .container {
+      padding: 0 20px;
+    }
+  
+    .wrapper-content {
+      flex-direction: column;
+    }
+    .wrapper-content-right {
+      margin: 0;
+      max-width: 100%;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: 1fr 0.8fr;
+      grid-column-gap: 16px;
+      grid-row-gap: 16px;
+    }
+  }
+  /* -------------------- Доп брек-поинт 550зч ----------------- */
+  
+  @media (max-width: 550px) {
+    .img_woman_and_arm {
+      flex-direction: column;
+    }
+  
+    .wrapper-content-right {
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(2, 0.7fr) 0.65fr 0.55fr;
+    }
+  }
+  /* -------------------- iPhone 11 Pro Max-4 ----------------- */
+  @media (max-width: 414px) {
+    .img_woman_and_arm,
+    .section-chair-and-night_woman {
+      flex-direction: column;
+    }
+    .svg_text {
+      padding: 0;
+    }
+  }
+  /* -------------------- iPhone SE-3----------------- */
+  @media (max-width: 320px) {
+    .container {
+      padding: 0 16px;
+    }
+    h3 {
+      font-size: 1.28rem;
+      line-height: 1.85rem;
+    }
+  }
